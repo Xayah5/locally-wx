@@ -1,0 +1,14 @@
+<view class="home">
+  <!-- 轮播图 -->
+  <swiper indicator-dots autoplay circular>
+    <block wx:for="{{slides}}" wx:key="index">
+      <swiper-item>
+        <image mode="aspectFill" src="{{item.image}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 九宫格 -->
+  <van-grid column-num="3">
+    <van-grid-item icon="{{item.icon}}" text="{{item.name}}" wx:for="{{cates}}" wx:key="index"></van-grid-item>
+  </van-grid>
+</view>

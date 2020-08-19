@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#cccccc",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "/assest/tabs/home.png",
+        "selectedIconPath": "/assest/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "message",
+        "iconPath": "/assest/tabs/message.png",
+        "selectedIconPath": "/assest/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "profile",
+        "iconPath": "/assest/tabs/profile.png",
+        "selectedIconPath": "/assest/tabs/profile-active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hustle",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

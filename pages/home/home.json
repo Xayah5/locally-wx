@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-grid": "../../weapp/dist/grid/index",
+    "van-grid-item": "../../weapp/dist/grid-item/index"
+  }
+}

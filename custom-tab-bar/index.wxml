@@ -1,0 +1,6 @@
+<van-tabbar active="{{ selected }}" bind:change="switchTab" class="my-tabbar">
+  <van-tabbar-item wx:for="{{list}}" wx:key="index">
+    <image slot="icon" src="{{ item.iconPath}}" mode="aspectFit" />
+    <image slot="icon-active" src="{{ item.selectedIconPath }}" mode="aspectFit" />
+  </van-tabbar-item>
+</van-tabbar>
